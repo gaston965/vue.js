@@ -1,0 +1,64 @@
+/*.coso 
+{
+
+top:0%;
+margin-left:22%;
+
+}*/
+
+
+
+#coso
+{
+   
+    margin-right :10%; 
+   
+
+}
+
+/*ul
+{  
+	 display: inline-flex;
+     
+}*/
+
+
+ul li 
+{
+    top: 0%;
+	list-style: none;	
+	display: inline-block;
+	text-decoration: none;
+	  margin-right:0%;
+   margin-left:5%;
+   color:black;
+}
+
+ul li a
+{
+     
+	color:black;
+}
+
+
+
+
+
+
+/*body div div {
+	
+	width:50%
+	
+	
+ }*/
+
+
+
+
+/*p{
+	color:#FC0;
+	font-size:2em;
+}*/
+/*
+p span{font-size:2em;
+}*/

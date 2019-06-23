@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lista de llamadas</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.14/js/jquery.tablesorter.min.js"></script>
+
+
+       <script src="js/coso.js"></script>
+       <script src="js/busqueda.js"></script>
+
+
+</head>
+<body>
+	 
+   
+
+
+
+    <div class="container-fluid">
+	    <div class="form-group">
+    	<label for="myInput">Busqueda</label>
+    <input type="text" id="myInput" onkeyup="myFunction()" class="form-control " placeholder="Search for names.."/>
+    </div>
+    
+	 <form action="">
+	 	  <table class="table table-bordered"  id="myTable">
+	 	  	<thead>
+	 	  		<tr>
+	 	  			<th>#IdLLamada</th>
+	 	  			<th>DNI</th>
+	 	  			<th>Apellido y Nombre</th>
+	 	  			<th>Problema detectado</th>
+	 	  			<th>Solucionado SI NO</th>
+	 	  		</tr>
+
+
+	 	  	</thead>
+	 	  	<tbody>
+	 	  		<tr>
+	 	  			<td>218975</td>
+                    <td>35496962</td>
+                    <td>Barrios Alicia</td>
+                     <td>Termotanque no enciende</td>
+                     <td style="color:blue">SI</td> 
+	 	  		</tr>
+	 	  		<tr>
+	 	  			<td>218976</td>
+	 	  			<td>23165789</td>
+	 	  			<td>Irma Garcia</td>
+	 	  			<td>Anafes no mantiene llama</td>
+	 	  			<td style="color:red">NO</td>
+	 	  	   </tr>
+	 	  		<tr>
+	 	  			<td>215787</td>
+	 	  			<td>18025963</td>
+	 	  			<td>Alicia Newman</td>
+	 	  			<td>Anafe abre llama muy grande</td>
+	 	  			<td style="color:red">NO</td>
+	 	  	    </tr>
+	 	  		<tr>
+	 	  			<td>218722</td>
+	 	  		    <td>12156789</td>
+	 	  		    <td>Miss Bisman</td>
+	 	  		    <td>Calefon no calienta</td>
+	 	  		    <td style="color:blue">SI</td> 
+	 	  		</tr>
+	 	  		<tr>
+	 	  			<td>215789</td>
+	 	  		     <td>45698789</td>
+	 	  		     <td>Celina Edith</td>
+	 	  		     <td>Calefon no hierve agua</td>
+	 	  		     <td style="color:red">NO</td>
+	 	  		 </tr>
+	 	  	</tbody>
+
+
+
+	 	  </table>
+
+
+
+
+
+
+
+
+	 </form>
+  </div>
+
+
+</body>
+</html>
